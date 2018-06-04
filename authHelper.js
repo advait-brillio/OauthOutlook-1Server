@@ -1,8 +1,9 @@
 // Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See full license at the bottom of this file.
 var credentials = {
     client: {
-      id: '05edc8c0-4fc4-4900-be20-99cd6a7885dc', //https://apps.dev.microsoft.com//newOAUTH
-      secret: 'qdcTSR3920-=tdtjDREV5{#',
+      id: "e9788c79-66c4-4414-8da7-48317ae91b64", //https://apps.dev.microsoft.com//newOAUTH
+      secret: 'gkNSLEC389[^ewwnaHR90@='
+     
     },
     auth: {
       tokenHost: 'https://login.microsoftonline.com',
