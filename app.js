@@ -1,22 +1,7 @@
 const restify = require('restify');
-
-
-
 const builder = require('botbuilder');
 
-
-
 var authHelper = require('./authHelper');
-
-
-
-// var server1 = require('./server'); //LOGIN SERVER
-
-
-
-// var router = require('./router');
-
-
 
 var outlook = require('node-outlook');
 
@@ -31,17 +16,8 @@ var http = require('http');
 var bodyParser = require('body-parser')
 
 //--------------RESTIFY SERVER-----------------------------------------------------------------------------------------------------
-
-
-
 var server = restify.createServer();
-
-
-
 server.listen(process.env.port || process.env.PORT || 8080, function () {
-
-
-
     console.log('%s listening to %s', server.name, server.url);
 
 
@@ -52,21 +28,11 @@ server.listen(process.env.port || process.env.PORT || 8080, function () {
 
 console.log('started...')
 
-
-
-console.log("f4aec4dd-f425-440f-bb0a-12d4cee2cfda");
-
-
-
 var connector = new builder.ChatConnector({
 
+    appId: "05edc8c0-4fc4-4900-be20-99cd6a7885dc",
 
-
-    appId: "",
-
-
-
-    appPassword: ""
+   appPassword: "qdcTSR3920-=tdtjDREV5{#"
 
 
 
