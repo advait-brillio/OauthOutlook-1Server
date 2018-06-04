@@ -2,9 +2,9 @@
   "name": "node-tutorial",
   "version": "1.0.0",
   "description": "A simple Node.js tutorial to use the Mail API",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node main.js"
   },
   "keywords": [
     "outlook",
