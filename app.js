@@ -30,9 +30,9 @@ console.log('started...')
 
 var connector = new builder.ChatConnector({
 
-    appId: "05edc8c0-4fc4-4900-be20-99cd6a7885dc",
+    appId: "e9788c79-66c4-4414-8da7-48317ae91b64",
 
-   appPassword: "qdcTSR3920-=tdtjDREV5{#"
+   appPassword: "gkNSLEC389[^ewwnaHR90@="
 
 
 
