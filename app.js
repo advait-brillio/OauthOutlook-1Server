@@ -17,37 +17,17 @@ var bodyParser = require('body-parser')
 
 //--------------RESTIFY SERVER-----------------------------------------------------------------------------------------------------
 var server = restify.createServer();
-server.listen(process.env.port || process.env.PORT || 8080, function () {
+server.listen(process.env.port || process.env.PORT || 3978, function () {
     console.log('%s listening to %s', server.name, server.url);
-
-
-
 });
-
-
 
 console.log('started...')
-
 var connector = new builder.ChatConnector({
-
-    appId: "e9788c79-66c4-4414-8da7-48317ae91b64",
-
-   appPassword: "gkNSLEC389[^ewwnaHR90@="
-
-
-
+appId: "e9788c79-66c4-4414-8da7-48317ae91b64",
+appPassword: "gkNSLEC389[^ewwnaHR90@="
 });
-
-
-
 var bot = new builder.UniversalBot(connector);
-
-
-
 server.post('/api/messages', connector.listen());
-
-
-
 //-------------------------------------------------------------------------------------------------------------------
 
 
