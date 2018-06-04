@@ -17,7 +17,7 @@ var bodyParser = require('body-parser')
 
 //--------------RESTIFY SERVER-----------------------------------------------------------------------------------------------------
 var server = restify.createServer();
-server.listen(process.env.port || process.env.PORT || 3978, function () {
+server.listen(process.env.port || process.env.PORT || 8181, function () {
     console.log('%s listening to %s', server.name, server.url);
 });
 
