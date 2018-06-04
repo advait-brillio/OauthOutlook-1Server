@@ -1,7 +1,7 @@
 // Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See full license at the bottom of this file.
 var credentials = {
     client: {
-      id: '05edc8c0-4fc4-4900-be20-99cd6a7885dc', //https://apps.dev.microsoft.co
+      id: '05edc8c0-4fc4-4900-be20-99cd6a7885dc', //https://apps.dev.microsoft.com//newOAUTH
       secret: 'qdcTSR3920-=tdtjDREV5{#',
     },
     auth: {
