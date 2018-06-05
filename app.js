@@ -3208,7 +3208,7 @@ function sendoptionCard(session, input, options) {
         var msg = new builder.Message(session)
 
  
-
+            .text("Choose any of the following.")
             .suggestedActions(
 
             builder.SuggestedActions.create(
