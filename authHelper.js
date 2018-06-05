@@ -12,7 +12,7 @@ var credentials = {
   };
   var oauth2 = require('simple-oauth2').create(credentials);
   
-  var redirectUri = 'https://127.0.0.1/authorize';
+  var redirectUri = 'https://localhost/authorize';
   
   // The scopes the app requires
   var scopes = [ 'openid',
