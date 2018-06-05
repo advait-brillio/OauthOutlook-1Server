@@ -1,10 +1,9 @@
 // Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See full license at the bottom of this file.
 var credentials = {
     client: {
-      id: "e9788c79-66c4-4414-8da7-48317ae91b64", //https://apps.dev.microsoft.com//newOAUTH
-      secret: 'gkNSLEC389[^ewwnaHR90@='
-     
-    },
+      id: "51f1c451-233b-4246-b40c-8d8e9315f8a1", //https://apps.dev.microsoft.com//newOAUTH
+      secret: "xzbqsIHV0?^mwQYKK1199=%"
+    } 
     auth: {
       tokenHost: 'https://login.microsoftonline.com',
       authorizePath: 'common/oauth2/v2.0/authorize',
@@ -13,7 +12,7 @@ var credentials = {
   };
   var oauth2 = require('simple-oauth2').create(credentials);
   
-  var redirectUri = 'https://oauthoutlook-1.azurewebsites.net/authorize';
+  var redirectUri = 'https://127.0.0.1/authorize';
   
   // The scopes the app requires
   var scopes = [ 'openid',
