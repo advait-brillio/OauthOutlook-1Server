@@ -3,8 +3,7 @@ var credentials = {
     client: {
       id: "51f1c451-233b-4246-b40c-8d8e9315f8a1", //https://apps.dev.microsoft.com//newOAUTH
       secret: "xzbqsIHV0?^mwQYKK1199=%"
-    } 
-    auth: {
+    }, 
       tokenHost: 'https://login.microsoftonline.com',
       authorizePath: 'common/oauth2/v2.0/authorize',
       tokenPath: 'common/oauth2/v2.0/token'
