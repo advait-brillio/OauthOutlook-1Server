@@ -59,7 +59,7 @@ bot.on('conversationUpdate', function (message) {
 bot.dialog('Introduce', [
     function (session, args, next) {
         console.log("session:!!!!!!!!", session.message.address);
-        const commands = ' ### Hi Hella here ! I can help you with followings :\n - Type \"set language\" to speak in any languages(Currently Bot Support German,French,Spanish,Italian,Chinese,Japanese).\n - Type \"set default language\" to speak in english.\n - Type \" What is time? \"  to get time and date.\n - Type mathamatical questions and get result (Ex.add 1 and 2/5!/sin 45/log 10 etc)\n - Type  \"What is weather?\"  to see weather condition in city you required.\n - Type  \"Translate sentence\"  to translate any sentence to any other language.\n - Type  \" Introduce\"  at any time to see these options again.';
+        const commands = ' ### Hi Hella here ! I can help you with followings :\n - Type \"set language\" to speak in any languages(Currently Bot Support German,French,Spanish,Italian,Chinese,Japanese).\n - Type \"set default language\" to speak in english.\n - Type \" What is time? \"  to get time and date.\n - Type mathamatical questions and get result (Ex.add 1 and 2/5!/sin 45/log 10 etc)\n - Type  \"What is weather?\"  to see weather condition in city you required.\n - Type  \"Translate sentence\"  to translate any sentence to any other language.\n - Type  \"Translate sentence\"  to translate any sentence to any other language.\n - Type  \" get my mails \"  to get your mails.\n- Type  \" Introduce\"  at any time to see these options again.';
           session.send(commands).endDialog();
     }
 ]);
